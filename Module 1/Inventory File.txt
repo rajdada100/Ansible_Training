@@ -17,3 +17,19 @@ db1.example.com ansible_user=oracle
 
 
 Note:  You can also use a custom file with -i inventory_file
+
+[CLUSTER_1]
+ORA_SERVER1  ansible_user=oracle
+ORA_SERVER2  ansible_user=oracle
+ORA_SERVER3  ansible_user=mongouser
+MONGO_SERVER1  ansible_user=mongouser
+MONGO_SERVER2  ansible_user=mongouser
+
+
+[CLUSTER_2]
+ORA_SERVER1  ansible_user=oracle
+MONGO_SERVER1  ansible_user=mongouser
+MONGO_SERVER2  ansible_user=mongouser
+MONGO_SERVER3  ansible_user=mongouser
+
+
