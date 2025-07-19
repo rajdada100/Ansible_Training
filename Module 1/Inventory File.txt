@@ -1,0 +1,19 @@
+------------------------------------------------------
+Inventory File
+------------------------------------------------------
+Ansible uses an inventory file to know what hosts to manage.
+
+📄 Default location:
+
+/etc/ansible/hosts
+🧪 Example:
+
+[webservers]
+192.168.1.10
+192.168.1.11
+
+[dbservers]
+db1.example.com ansible_user=oracle
+
+
+Note:  You can also use a custom file with -i inventory_file

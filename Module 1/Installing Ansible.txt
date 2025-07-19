@@ -1,0 +1,23 @@
+-------------------------------------
+Installing Ansible
+-------------------------------------
+
+
+💡 On a RHEL/CentOS-based system:
+
+sudo yum install epel-release -y
+sudo yum install ansible -y
+
+💡 On Ubuntu/Debian:
+
+sudo apt update
+sudo apt install ansible -y
+
+💡 Using pip (cross-platform):
+
+pip install ansible
+
+
+✅ Verify:
+
+ansible --version

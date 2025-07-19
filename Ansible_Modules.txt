@@ -1,0 +1,93 @@
+-----------------------------------------------
+🧩 Module 1: Ansible Setup & Basics
+-----------------------------------------------
+
+🎯 Objective:
+Get participants ready with Ansible installed and able to run basic commands.
+
+🔹 Topics Covered:
+What is Ansible? How it works (agentless, SSH-based)
+
+Inventory basics (/etc/ansible/hosts or custom inventory)
+
+Installing Ansible (via pip, apt, yum, or source)
+
+Passwordless SSH setup (using SSH keys)
+
+Running ad-hoc commands (ansible all -m ping)
+
+✅ Hands-on:
+Install Ansible on your control node
+
+Create a simple inventory file
+
+Setup SSH key-based auth between control node and managed nodes
+
+Run ping, shell, and copy modules
+
+
+-----------------------------------------------
+🧩 Module 2: Writing and Running Playbooks
+-----------------------------------------------
+
+🎯 Objective:
+Understand YAML-based automation and how to write repeatable tasks.
+
+🔹 Topics Covered:
+Structure of a playbook
+
+Tasks, modules, and variables
+
+hosts, become, gather_facts
+
+Using handlers and notify
+
+Loops and conditionals
+
+Variables and facts
+
+Tags and --limit
+
+✅ Hands-on:
+Write a playbook to:
+
+Install a package
+
+Start a service
+
+Deploy a configuration file
+
+Use ansible-playbook to run it
+
+Use tags and --check mode
+
+-----------------------------------------------
+🧩 Module 3: Advanced Features & Best Practices
+-----------------------------------------------
+
+🎯 Objective:
+Explore advanced Ansible functionality for production-ready automation.
+
+🔹 Topics Covered:
+Roles and directory structure (ansible-galaxy init)
+
+Vault: encrypting sensitive data
+
+Templates with Jinja2
+
+Custom facts and dynamic inventory
+
+Error handling: failed_when, ignore_errors, rescue/block
+
+Ansible Tower / AWX overview (if applicable)
+
+CI/CD integration basics
+
+✅ Hands-on:
+Create a role for setting up Apache
+
+Encrypt a password using Ansible Vault
+
+Use a Jinja2 template to render a config file
+
+Write a block to handle failure cases gracefully

@@ -1,0 +1,8 @@
+---------------------------------------
+Ansible Architecture
+---------------------------------------
+Control Node – Where Ansible is installed
+Managed Nodes – Hosts Ansible connects to
+Inventory File – Lists managed nodes
+Modules – Do the work (e.g., ping, yum, copy, service)
+
