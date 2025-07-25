@@ -1,0 +1,10 @@
+- name: Inline Variable Example
+  hosts: localhost
+  gather_facts: no
+  vars:
+    my_name: "Raj"  
+    nationality: "Indian"
+  tasks:
+    - name: Display a message with inline variable
+      ansible.builtin.debug:
+        msg: "My name is {{ my_name }} and my nationality is {{ nationality }}."
