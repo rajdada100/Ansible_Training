@@ -1,0 +1,23 @@
+- name: Practice Playbook - System Information
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: Display a message
+      ansible.builtin.debug:
+        msg: "This is a practice playbook for Ansible."
+
+    - name: Show hostname
+      shell: hostname
+      register: hostname_out
+
+    - name: Display hostname
+      debug:
+        var: hostname_out.stdout
+
+    - name: Display current date and time
+      shell: date
+      register: date_out
+
+    - name: Display the output of date command
+      debug:
+        var: date_out.stdout
