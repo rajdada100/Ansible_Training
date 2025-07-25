@@ -1,4 +1,4 @@
-# 🧩 Module 2: Ansible Playbooks
+# 📘 Module 2: Ansible Playbooks
 
 ## 🎯 Objective
 Learn to write structured automation scripts using YAML — called playbooks — to automate multi-step tasks across multiple hosts.
