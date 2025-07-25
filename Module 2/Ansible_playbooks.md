@@ -69,8 +69,8 @@ Update your inventory file to have:
 
 ```ini
 [webservers]
-e3paa01spcmon02
-e3pab01spcmon03
+server1
+server2
 ```
 
 ---
