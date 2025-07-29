@@ -76,7 +76,8 @@ Run tasks multiple times with different values.
 ## 4. Facts (`gather_facts`)
 
 Facts are system data automatically collected by Ansible.
-
+It automatically collects detailed information (facts) about a host before running tasks—OS, IP, memory, CPU, network interfaces, etc.
+Facts are stored in ansible_facts and can be used in playbooks.
 <details>
 <summary>Example: Display Hostname from Facts</summary>
 
