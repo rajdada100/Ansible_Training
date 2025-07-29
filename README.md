@@ -12,7 +12,7 @@ Each module focuses on a specific concept in Ansible. Start from the basics and 
 | Module | Description |
 |--------|-------------|
 | [Module 1 - Introduction](https://github.com/rajdada100/Ansible_Training/tree/main/Module%201) | What is Ansible, its features, and how it works |
-| [Module 2 - Inventory](./Module%202/Inventory.txt) | Hosts, groups, dynamic/static inventories |
+| [Module 2 - Inventory](https://github.com/rajdada100/Ansible_Training/tree/main/Module%202) | Hosts, groups, dynamic/static inventories |
 | [Module 3 - Ad-Hoc Commands](./Module%203/Adhoc_Commands.txt) | Run quick tasks using Ansible CLI |
 | [Module 4 - Playbooks](./Module%204/Playbooks.txt) | Writing reusable YAML scripts for automation |
 | [Module 5 - Modules](./Module%205/Modules.txt) | Built-in and custom modules overview |
